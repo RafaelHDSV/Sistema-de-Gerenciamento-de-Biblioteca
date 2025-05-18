@@ -1,0 +1,14 @@
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\bin\Debug\Controle de Biblioteca.exe.config
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\bin\Debug\Controle de Biblioteca.exe
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\bin\Debug\Controle de Biblioteca.pdb
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.csproj.AssemblyReference.cache
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.MainForm.resources
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.Properties.Resources.resources
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.csproj.GenerateResource.cache
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.csproj.CoreCompileInputs.cache
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.exe
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.pdb
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmCadastroDeUsuarios.resources
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmCadastroDeLivros.resources
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmControleDeEmpréstimo.resources
+D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmRelatorios.resources
