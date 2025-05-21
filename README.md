@@ -6,7 +6,6 @@
 ![Visual Studio 2022](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![GitHub language count](https://img.shields.io/github/languages/count/RafaelHDSV/Sistema-de-Gerenciamento-de-Biblioteca?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/RafaelHDSV/Sistema-de-Gerenciamento-de-Biblioteca?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/RafaelHDSV/Controle-de-Estoque-CSharp-IPOO?style=for-the-badge)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/86f75661-ebb2-4f13-a40a-62d76fbbf9f8" alt="Tela Principal do Sistema" width="600">
@@ -22,12 +21,14 @@
 
 <h2 id="about">📌 Sobre o Projeto</h2>
 
-Sistema de controle de estoque desenvolvido em C# com Windows Forms como parte de estudos em Programação Orientada a Objetos. 
+Sistema de controle de biblioteca desenvolvido em Windows Forms com C#. Permite gerenciar livros, alunos, professores e empréstimos, com funcionalidades de cadastro, listagem e relatórios organizados.
 
 🔹 **Principais características:**
-- Cadastro de produtos com nome, tipo, quantidade e fornecedor
-- Controle de entrada e saída de itens
-- Consulta completa do estoque
+- Cadastro e listagem de livros
+- Cadastro e listagem de alunos
+- Cadastro e listagem de professores
+- Gerenciamento de empréstimo, com devoluções e empréstimos
+- Relatórios organizados com tabelas sobre os dados salvos
 - Interface MDI (Multiple Document Interface)
 - Validações de dados integradas
 
@@ -35,20 +36,36 @@ Sistema de controle de estoque desenvolvido em C# com Windows Forms como parte d
 
 <h2 id="features">✨ Funcionalidades</h2>
 
-- **Cadastro de Produtos**
-  - Formulário com campos obrigatórios
-  - Seleção de quantidade pré-definida
-  - Validação de dados
+- **Cadastro de Livros**
+  - Adição de livros com as propriedades:
+    - Título
+    - Autor
+    - Ano
+    - ISBN
+    - Status (Disponível / Emprestado) _valor inicial é disponível_
+  
+- **Cadastro de Usuários**
+  - Adição de usuários com dois tipos diferentes e as propriedades:
+    - Nome
+    - Tipo (Aluno / Professor)
+    - Curso (_aluno_)
+    - Número de mátricula (_aluno_)
+    - Departamento (_professor_)
+    - Número de Registro (_professor_)
 
-- **Controle de Estoque**
-  - Entrada de mercadorias
-  - Saída de mercadorias
-  - Impedimento de saída quando estoque insuficiente
+- **Controle de Empréstimos**
+  - Controle de empréstimos e devoluções com as propriedades:
+    - Usuário _(classe Usuário)_
+    - Livro _(classe Livro)_
+    - Status _(Disponível / Emprestado)_
 
-- **Consulta Completa**
-  - Visualização em tabela
-  - Atualização automática
-  - Exibição de todos os campos cadastrais
+- **Relatórios**
+  - Tabela de alunos cadastrados
+  - Tabela de professores cadastrados
+  - Tabela de livros cadastrados
+  - Tabela de livros disponíveis cadastrados
+  - Tabela de livros emprestados cadastrados
+  - Tabela de histórico de empréstimos
 
 <h2 id="started">🚀 Como Executar o Projeto</h2>
 
@@ -76,10 +93,11 @@ cd Controle-de-Estoque-CSharp-IPOO
 
 | Formulário | Descrição
 |----------------------|-----------------------------------------------------
-| frmPrincipal | Tela principal (MDI Container) com menu de acesso a todas as funcionalidades
-| frmCadastro | Formulário para cadastro de novos produtos no sistema
-| frmControle | Interface para gerenciar entradas e saídas do estoque
-| frmConsulta | Tabela de visualização de todos os produtos cadastrados
+| MainForm | Tela principal (MDI Container) com menu de acesso a todas as funcionalidades
+| frmCadastroDeLivros | Formulário para cadastro de novos livros no sistema
+| frmCadastroDeUsuarios | Formulário para cadastro de novos usuários no sistema
+| frmControleDeEmprestimos | Formulário para controle de empréstimos e devoluções
+| frmRelatorios | Formulário com tabelas sobre todos os dados salvos no sistema
 
 <h2 id="screenshots">📷 Screenshots</h2>
 
