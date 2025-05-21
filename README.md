@@ -1,17 +1,15 @@
 # Sistema-de-Gerenciamento-de-Biblioteca
 
-<!-- ![React language](https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react) -->
-<!-- ![Typescript language](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) -->
-<!-- ![Javascript language](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript) -->
-<!-- ![Sass language](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) -->
-<!-- ![CSS language](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) -->
-<!-- ![HTML language](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) -->
-
+![C# language](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![Visual Studio 2022](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![GitHub language count](https://img.shields.io/github/languages/count/RafaelHDSV/Sistema-de-Gerenciamento-de-Biblioteca?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/RafaelHDSV/Sistema-de-Gerenciamento-de-Biblioteca?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/RafaelHDSV/Controle-de-Estoque-CSharp-IPOO?style=for-the-badge)
 
 <p align="center">
-    <img src="./public/images/main.gif" alt="Gif Example">
+    ![image](https://github.com/user-attachments/assets/86f75661-ebb2-4f13-a40a-62d76fbbf9f8)
 </p>
 
 <p align="center">
