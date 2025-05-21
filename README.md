@@ -60,7 +60,7 @@ Sistema de controle de estoque desenvolvido em C# com Windows Forms como parte d
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/RafaelHDSV/Controle-de-Estoque-CSharp-IPOO.git
+git clone [https://github.com/RafaelHDSV/Controle-de-Estoque-CSharp-IPOO.git](https://github.com/RafaelHDSV/Sistema-de-Gerenciamento-de-Biblioteca.git)
 ```
 
 2.  Acesse a pasta do projeto:
