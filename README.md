@@ -102,18 +102,18 @@ cd Controle-de-Estoque-CSharp-IPOO
 <h2 id="screenshots">📷 Screenshots</h2>
 
 Tela Principal (MDI Container)
-![image](https://github.com/user-attachments/assets/aca14c72-377e-47f7-ba54-8c43405fc1ef)
+![image](https://github.com/user-attachments/assets/5a939737-cdef-4512-9a1b-f3b2faa80155)
 
-Consulta de Produtos
-![image](https://github.com/user-attachments/assets/917073ae-ba17-40fc-9d39-23240bdd8ad6)
+Cadastro de Livros
+![image](https://github.com/user-attachments/assets/b559dc83-ef77-4d22-8ead-4163db198fb6)
 
-Cadastro de Produtos
-![image](https://github.com/user-attachments/assets/207ac9eb-92d1-4e53-931a-47e09da6bac3)
+Cadastro de Usuários
+![image](https://github.com/user-attachments/assets/c94f45ff-ff05-42e2-9a7a-0d979e6507f6)
 
-Opções de quantidade disponíveis:
-![image](https://github.com/user-attachments/assets/8b887a92-91b9-4546-aa2a-3f148a63c8cd)
+Controle de Empréstimos
+![image](https://github.com/user-attachments/assets/de892b24-6adf-4c24-990f-8067144859cb)
 
-Controle de Estoque
-![image](https://github.com/user-attachments/assets/fa815907-1436-4fa8-bcf8-7848a27561b2)
+Relatórios
+![image](https://github.com/user-attachments/assets/4b45d5d0-4c0c-4eca-8131-6dc003ec19e7)
 
 <p align="center"> Desenvolvido com ❤️ por <a href="https://github.com/RafaelHDSV">RafaelHDSV</a> </p>
