@@ -35,6 +35,8 @@
             this.inputStatus = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.inputLivro = new System.Windows.Forms.ComboBox();
+            this.inputUsuarios = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAtualizar
@@ -87,7 +89,7 @@
             this.inputStatus.Location = new System.Drawing.Point(279, 228);
             this.inputStatus.Name = "inputStatus";
             this.inputStatus.Size = new System.Drawing.Size(200, 24);
-            this.inputStatus.TabIndex = 50;
+            this.inputStatus.TabIndex = 3;
             // 
             // label1
             // 
@@ -104,14 +106,33 @@
             this.inputLivro.Location = new System.Drawing.Point(279, 168);
             this.inputLivro.Name = "inputLivro";
             this.inputLivro.Size = new System.Drawing.Size(200, 24);
-            this.inputLivro.TabIndex = 63;
+            this.inputLivro.TabIndex = 2;
             this.inputLivro.SelectedIndexChanged += new System.EventHandler(this.inputLivro_SelectedIndexChanged);
+            // 
+            // inputUsuarios
+            // 
+            this.inputUsuarios.FormattingEnabled = true;
+            this.inputUsuarios.Location = new System.Drawing.Point(279, 113);
+            this.inputUsuarios.Name = "inputUsuarios";
+            this.inputUsuarios.Size = new System.Drawing.Size(200, 24);
+            this.inputUsuarios.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(276, 94);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(54, 16);
+            this.label3.TabIndex = 64;
+            this.label3.Text = "Usuário";
             // 
             // frmControleDeEmpréstimo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.inputUsuarios);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.inputLivro);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.label8);
@@ -136,5 +157,7 @@
         private System.Windows.Forms.ComboBox inputStatus;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox inputLivro;
+        private System.Windows.Forms.ComboBox inputUsuarios;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Controle_de_Biblioteca
 {
@@ -12,7 +10,7 @@ namespace Controle_de_Biblioteca
 
     public class Livro
     {
-        public Guid _id { get; set; }
+        public Guid _id { get; private set; }
         public string titulo { get; set; }
         public string autor { get; set; }
         public int ano { get; set; }
@@ -40,13 +38,18 @@ namespace Controle_de_Biblioteca
         Professor
     }
 
-    public abstract class Usuario
+    public class Usuario
     {
-        public string _id { get; set; }
+        public Guid _id { get; private set; }
         public string nome { get; set; }
         public TipoUsuario tipo { get; set; }
 
-        public string ExibirInformacoes()
+        public Usuario()
+        {
+            _id = Guid.NewGuid();
+        }
+
+        public virtual string ExibirInformacoes()
         {
             return $"ID: {_id} \n Nome: {nome} \n tipo: {tipo}";
         }
@@ -57,7 +60,7 @@ namespace Controle_de_Biblioteca
         public int ra { get; set; }
         public string curso { get; set; }
 
-        public new string ExibirInformacoes()
+        public override string ExibirInformacoes()
         {
             return $"ID: {_id} \n Nome: {nome} \n Tipo: {tipo} \n RA: {ra} \n Curso: {curso}";
         }
@@ -68,7 +71,7 @@ namespace Controle_de_Biblioteca
         public int numeroRegistro { get; set; }
         public string departamento { get; set; }
 
-        public new string ExibirInformacoes()
+        public override string ExibirInformacoes()
         {
             return $"ID: {_id} \n Nome: {nome} \n Tipo: {tipo} \n Registro: {numeroRegistro} \n Departamento: {departamento}";
         }
@@ -76,11 +79,25 @@ namespace Controle_de_Biblioteca
 
     public class Emprestimo
     {
-        public int id { get; set; }
+        public Guid _id { get; private set; }
         public Usuario usuario { get; set; }
         public Livro livro { get; set; }
-        public string data { get; set; }
-        public StatusLivro status { get; private set; } = StatusLivro.Emprestado;
+        public DateTime data { get; set; }
+        public DateTime dataDevolucao { get; set; }
+        public StatusLivro status { get; set; } = StatusLivro.Emprestado;
+
+        public Emprestimo()
+        {
+            _id = Guid.NewGuid();
+            data = DateTime.Now;
+            dataDevolucao = DateTime.Now.AddDays(15);
+        }
+
+        public void RegistrarEmprestimo()
+        {
+            livro.MarcarComoEmprestado();
+            status = StatusLivro.Emprestado;
+        }
 
         public void RegistrarDevolucao()
         {
@@ -88,9 +105,9 @@ namespace Controle_de_Biblioteca
             status = StatusLivro.Disponivel;
         }
 
-        public void ExibirResumo()
+        public string ExibirInformacoes()
         {
-            Console.WriteLine($"Empréstimo #{id} - Livro: {livro.titulo}, Usuário: {usuario.nome}, Data: {data}, Status: {status}");
+            return $"ID: {_id} \n Usuário: {usuario.nome} \n Livro: {livro.titulo} \n Data: {data} \n Data de Devolução: {dataDevolucao} \n Status: {status}";
         }
     }
 }

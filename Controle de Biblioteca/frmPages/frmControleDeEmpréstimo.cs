@@ -19,6 +19,10 @@ namespace Controle_de_Biblioteca.frmPages
 
         private void frmControleDeEmpréstimo_Load(object sender, EventArgs e)
         {
+            inputUsuarios.DataSource = mainForm.usuarios;
+            inputUsuarios.DisplayMember = "nome";
+            inputUsuarios.ValueMember = "_id";
+
             inputLivro.DataSource = mainForm.livros;
             inputLivro.DisplayMember = "titulo";
             inputLivro.ValueMember = "_id";
@@ -49,18 +53,34 @@ namespace Controle_de_Biblioteca.frmPages
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
-            var livroSelecionado = inputLivro.SelectedItem as Livro;
+            string idUsuarioSelecionado = inputUsuarios.SelectedValue.ToString();
+            string idLivroSelecionado = inputLivro.SelectedValue.ToString();
             string status = inputStatus.Text;
+
+            Usuario usuarioSelecionado = mainForm.usuarios.FirstOrDefault(u => u._id.ToString() == idUsuarioSelecionado);
+            Livro livroSelecionado = mainForm.livros.FirstOrDefault(l => l._id.ToString() == idLivroSelecionado);
 
             if (status == "Emprestado")
             {
-                livroSelecionado.MarcarComoEmprestado();
-                MessageBox.Show("Livro emprestado com sucesso!");
+                Emprestimo emprestimo = new Emprestimo
+                {
+                    usuario = usuarioSelecionado,
+                    livro = livroSelecionado,
+                };
+                emprestimo.RegistrarEmprestimo();
+                mainForm.emprestimos.Add(emprestimo);
+                MessageBox.Show("Livro emprestado com sucesso!\n" + emprestimo.ExibirInformacoes());
             }
             else
             {
-                livroSelecionado.MarcarComoDisponivel();
-                MessageBox.Show("Livro devolvido com sucesso!");
+                Emprestimo emprestimo = new Emprestimo
+                {
+                    usuario = usuarioSelecionado,
+                    livro = livroSelecionado,
+                };
+                emprestimo.RegistrarDevolucao();
+                mainForm.emprestimos.Add(emprestimo);
+                MessageBox.Show("Livro devolvido com sucesso!\n" + emprestimo.ExibirInformacoes());
             }
         }
     }

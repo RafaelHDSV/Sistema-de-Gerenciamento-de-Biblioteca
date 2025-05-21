@@ -20,41 +20,11 @@ namespace Controle_de_Biblioteca
         {
             InitializeComponent();
 
-            livros.Add(new Livro
-            {
-                titulo = "O Senhor dos Anéis",
-                autor = "J.R.R. Tolkien",
-                ano = 1954,
-                isbn = "978-0007525546",
-                status = StatusLivro.Disponivel
-            });
+            List<Livro> mockedLivros = Constantes.ObterLivros();
+            livros.AddRange(Constantes.ObterLivros());
 
-            livros.Add(new Livro
-            {
-                titulo = "1984",
-                autor = "George Orwell",
-                ano = 1949,
-                isbn = "978-0451524935",
-                status = StatusLivro.Emprestado
-            });
-
-            usuarios.Add(new Aluno
-            {
-                _id = Guid.NewGuid().ToString(),
-                nome = "João da Silva",
-                tipo = TipoUsuario.Aluno,
-                ra = 123456,
-                curso = "Ciência da Computação"
-            });
-
-            usuarios.Add(new Professor
-            {
-                _id = Guid.NewGuid().ToString(),
-                nome = "Dra. Maria Oliveira",
-                tipo = TipoUsuario.Professor,
-                numeroRegistro = 98765,
-                departamento = "Matemática Aplicada"
-            });
+            List<Usuario> mockedUsuarios = Constantes.ObterUsuarios();
+            usuarios.AddRange(Constantes.ObterUsuarios());
         }
 
         private void cadastroDeLivrosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -87,7 +57,7 @@ namespace Controle_de_Biblioteca
 
         private void relatóriosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmPages.frmRelatorios frmRelatorios = new frmPages.frmRelatorios(this);
+            frmPages.Relatórios frmRelatorios = new frmPages.Relatórios(this);
             frmRelatorios.MdiParent = this;
             frmRelatorios.Show();
         }

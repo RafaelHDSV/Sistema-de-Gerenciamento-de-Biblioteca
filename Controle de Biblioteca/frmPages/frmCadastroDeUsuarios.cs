@@ -61,7 +61,6 @@ namespace Controle_de_Biblioteca.frmPages
                 case "Aluno":
                     Aluno aluno = new Aluno
                     {
-                        _id = Guid.NewGuid().ToString(),
                         nome = name,
                         tipo = TipoUsuario.Aluno,
                         ra = int.Parse(numeroMatricula),
@@ -73,7 +72,6 @@ namespace Controle_de_Biblioteca.frmPages
                 case "Professor":
                     Professor professor = new Professor
                     {
-                        _id = Guid.NewGuid().ToString(),
                         nome = name,
                         tipo = TipoUsuario.Professor,
                         numeroRegistro = int.Parse(numeroRegistro),

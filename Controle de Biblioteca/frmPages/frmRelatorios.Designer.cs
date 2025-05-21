@@ -1,6 +1,6 @@
 ﻿namespace Controle_de_Biblioteca.frmPages
 {
-    partial class frmRelatorios
+    partial class Relatórios
     {
         /// <summary>
         /// Required designer variable.
@@ -37,9 +37,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dtGridProfessores = new System.Windows.Forms.DataGridView();
             this.btnAtualizar = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dtGridEmprestimos = new System.Windows.Forms.DataGridView();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dtGridLivrosDisponiveis = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridAlunos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridLivros)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridProfessores)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridEmprestimos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridLivrosDisponiveis)).BeginInit();
             this.SuspendLayout();
             // 
             // dtGridAlunos
@@ -49,7 +55,7 @@
             this.dtGridAlunos.Name = "dtGridAlunos";
             this.dtGridAlunos.RowHeadersWidth = 51;
             this.dtGridAlunos.RowTemplate.Height = 24;
-            this.dtGridAlunos.Size = new System.Drawing.Size(370, 145);
+            this.dtGridAlunos.Size = new System.Drawing.Size(950, 145);
             this.dtGridAlunos.TabIndex = 0;
             this.dtGridAlunos.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dtGridAlunos_DataBindingComplete);
             // 
@@ -60,7 +66,7 @@
             this.dtGridLivros.Name = "dtGridLivros";
             this.dtGridLivros.RowHeadersWidth = 51;
             this.dtGridLivros.RowTemplate.Height = 24;
-            this.dtGridLivros.Size = new System.Drawing.Size(776, 139);
+            this.dtGridLivros.Size = new System.Drawing.Size(950, 145);
             this.dtGridLivros.TabIndex = 1;
             // 
             // label8
@@ -111,7 +117,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(415, 88);
+            this.label3.Location = new System.Drawing.Point(1017, 88);
             this.label3.MaximumSize = new System.Drawing.Size(800, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 18);
@@ -121,11 +127,11 @@
             // dtGridProfessores
             // 
             this.dtGridProfessores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtGridProfessores.Location = new System.Drawing.Point(418, 109);
+            this.dtGridProfessores.Location = new System.Drawing.Point(1020, 109);
             this.dtGridProfessores.Name = "dtGridProfessores";
             this.dtGridProfessores.RowHeadersWidth = 51;
             this.dtGridProfessores.RowTemplate.Height = 24;
-            this.dtGridProfessores.Size = new System.Drawing.Size(370, 145);
+            this.dtGridProfessores.Size = new System.Drawing.Size(950, 145);
             this.dtGridProfessores.TabIndex = 64;
             this.dtGridProfessores.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dtGridProfessores_DataBindingComplete);
             // 
@@ -139,11 +145,57 @@
             this.btnAtualizar.UseVisualStyleBackColor = true;
             this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
-            // frmRelatorios
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(9, 465);
+            this.label4.MaximumSize = new System.Drawing.Size(800, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(181, 18);
+            this.label4.TabIndex = 68;
+            this.label4.Text = "Histórico de Empréstimos";
+            // 
+            // dtGridEmprestimos
+            // 
+            this.dtGridEmprestimos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGridEmprestimos.Location = new System.Drawing.Point(12, 486);
+            this.dtGridEmprestimos.Name = "dtGridEmprestimos";
+            this.dtGridEmprestimos.RowHeadersWidth = 51;
+            this.dtGridEmprestimos.RowTemplate.Height = 24;
+            this.dtGridEmprestimos.Size = new System.Drawing.Size(950, 145);
+            this.dtGridEmprestimos.TabIndex = 67;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(1020, 278);
+            this.label5.MaximumSize = new System.Drawing.Size(800, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(128, 18);
+            this.label5.TabIndex = 70;
+            this.label5.Text = "Livros Disponíveis";
+            // 
+            // dtGridLivrosDisponiveis
+            // 
+            this.dtGridLivrosDisponiveis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGridLivrosDisponiveis.Location = new System.Drawing.Point(1020, 299);
+            this.dtGridLivrosDisponiveis.Name = "dtGridLivrosDisponiveis";
+            this.dtGridLivrosDisponiveis.RowHeadersWidth = 51;
+            this.dtGridLivrosDisponiveis.RowTemplate.Height = 24;
+            this.dtGridLivrosDisponiveis.Size = new System.Drawing.Size(950, 145);
+            this.dtGridLivrosDisponiveis.TabIndex = 69;
+            // 
+            // Relatórios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1982, 716);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.dtGridLivrosDisponiveis);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.dtGridEmprestimos);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dtGridProfessores);
@@ -153,12 +205,14 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dtGridLivros);
             this.Controls.Add(this.dtGridAlunos);
-            this.Name = "frmRelatorios";
-            this.Text = "frmRelatorios";
+            this.Name = "Relatórios";
+            this.Text = "Relatórios";
             this.Load += new System.EventHandler(this.frmRelatorios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtGridAlunos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridLivros)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridProfessores)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridEmprestimos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridLivrosDisponiveis)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,5 +229,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dtGridProfessores;
         private System.Windows.Forms.Button btnAtualizar;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridView dtGridEmprestimos;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridView dtGridLivrosDisponiveis;
     }
 }

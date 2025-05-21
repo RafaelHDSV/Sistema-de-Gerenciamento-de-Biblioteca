@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes.cs" />
+    <Compile Include="Constantes.cs" />
     <Compile Include="frmPages\frmCadastroDeLivros.cs">
       <SubType>Form</SubType>
     </Compile>

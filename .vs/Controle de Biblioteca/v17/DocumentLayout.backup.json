@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|c:\\users\\rafae\\onedrive\\documentos\\dev\\controle de biblioteca\\controle de biblioteca\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|c:\\users\\rafae\\onedrive\\documentos\\dev\\controle de biblioteca\\controle de biblioteca\\frmpages\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\frmpages\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|c:\\users\\rafae\\onedrive\\documentos\\dev\\controle de biblioteca\\controle de biblioteca\\frmpages\\frmcontroledeempr\u00E9stimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\frmpages\\frmcontroledeempr\u00E9stimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|c:\\users\\rafae\\onedrive\\documentos\\dev\\controle de biblioteca\\controle de biblioteca\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|c:\\users\\rafae\\onedrive\\documentos\\dev\\controle de biblioteca\\controle de biblioteca\\frmpages\\frmcadastrodeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\frmpages\\frmcadastrodeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|c:\\users\\rafae\\onedrive\\documentos\\dev\\controle de biblioteca\\controle de biblioteca\\frmpages\\frmcadastrodelivros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\frmpages\\frmcadastrodelivros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmCadastroDeLivros.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmCadastroDeLivros.cs",
+              "RelativeDocumentMoniker": "Controle de Biblioteca\\frmPages\\frmCadastroDeLivros.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmCadastroDeLivros.cs",
+              "RelativeToolTip": "Controle de Biblioteca\\frmPages\\frmCadastroDeLivros.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:40:48.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmCadastroDeUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmCadastroDeUsuarios.cs",
+              "RelativeDocumentMoniker": "Controle de Biblioteca\\frmPages\\frmCadastroDeUsuarios.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmCadastroDeUsuarios.cs",
+              "RelativeToolTip": "Controle de Biblioteca\\frmPages\\frmCadastroDeUsuarios.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwD4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:40:46.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmControleDeEmpr\u00E9stimo.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmControleDeEmpr\u00E9stimo.cs",
+              "RelativeDocumentMoniker": "Controle de Biblioteca\\frmPages\\frmControleDeEmpr\u00E9stimo.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmControleDeEmpr\u00E9stimo.cs",
+              "RelativeToolTip": "Controle de Biblioteca\\frmPages\\frmControleDeEmpr\u00E9stimo.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:40:45.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmRelatorios.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
+              "RelativeDocumentMoniker": "Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
+              "RelativeToolTip": "Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAowFoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:40:43.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\Classes.cs",
+              "RelativeDocumentMoniker": "Controle de Biblioteca\\Classes.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\Classes.cs",
+              "RelativeToolTip": "Controle de Biblioteca\\Classes.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwv1sAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:40:42.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\MainForm.cs",
+              "RelativeDocumentMoniker": "Controle de Biblioteca\\MainForm.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\Controle de Biblioteca\\MainForm.cs",
+              "RelativeToolTip": "Controle de Biblioteca\\MainForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:40:38.291Z",
+              "EditorCaption": ""
             }
           ]
         }
