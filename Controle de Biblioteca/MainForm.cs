@@ -20,10 +20,8 @@ namespace Controle_de_Biblioteca
         {
             InitializeComponent();
 
-            // MOCK: Livros iniciais
             livros.Add(new Livro
             {
-                _id = Guid.NewGuid().ToString(),
                 titulo = "O Senhor dos Anéis",
                 autor = "J.R.R. Tolkien",
                 ano = 1954,
@@ -33,7 +31,6 @@ namespace Controle_de_Biblioteca
 
             livros.Add(new Livro
             {
-                _id = Guid.NewGuid().ToString(),
                 titulo = "1984",
                 autor = "George Orwell",
                 ano = 1949,
@@ -41,7 +38,6 @@ namespace Controle_de_Biblioteca
                 status = StatusLivro.Emprestado
             });
 
-            // MOCK: Usuários iniciais
             usuarios.Add(new Aluno
             {
                 _id = Guid.NewGuid().ToString(),

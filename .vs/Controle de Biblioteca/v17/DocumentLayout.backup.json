@@ -1,24 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Controle de Biblioteca\\Controle de Biblioteca\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|d:\\controle de biblioteca\\controle de biblioteca\\controle de biblioteca\\frmpages\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\frmpages\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|d:\\controle de biblioteca\\controle de biblioteca\\controle de biblioteca\\frmpages\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\frmpages\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|d:\\controle de biblioteca\\controle de biblioteca\\controle de biblioteca\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|d:\\controle de biblioteca\\controle de biblioteca\\controle de biblioteca\\frmpages\\frmrelatorios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52117781-B4FD-48D3-87A2-D395C4CACBA2}|Controle de Biblioteca\\Controle de Biblioteca.csproj|solutionrelative:controle de biblioteca\\frmpages\\frmrelatorios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\rafae\\OneDrive\\Documentos\\DEV\\Controle de Biblioteca\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,62 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmRelatorios.Designer.cs",
-              "DocumentMoniker": "D:\\Controle de Biblioteca\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmRelatorios.Designer.cs",
-              "RelativeDocumentMoniker": "Controle de Biblioteca\\frmPages\\frmRelatorios.Designer.cs",
-              "ToolTip": "D:\\Controle de Biblioteca\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmRelatorios.Designer.cs",
-              "RelativeToolTip": "Controle de Biblioteca\\frmPages\\frmRelatorios.Designer.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAkwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T12:19:29.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Classes.cs",
-              "DocumentMoniker": "D:\\Controle de Biblioteca\\Controle de Biblioteca\\Controle de Biblioteca\\Classes.cs",
-              "RelativeDocumentMoniker": "Controle de Biblioteca\\Classes.cs",
-              "ToolTip": "D:\\Controle de Biblioteca\\Controle de Biblioteca\\Controle de Biblioteca\\Classes.cs",
-              "RelativeToolTip": "Controle de Biblioteca\\Classes.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAQwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T12:15:16.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmRelatorios.cs",
-              "DocumentMoniker": "D:\\Controle de Biblioteca\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
-              "RelativeDocumentMoniker": "Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
-              "ToolTip": "D:\\Controle de Biblioteca\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
-              "RelativeToolTip": "Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T12:11:40.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmRelatorios.cs [Design]",
-              "DocumentMoniker": "D:\\Controle de Biblioteca\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
-              "RelativeDocumentMoniker": "Controle de Biblioteca\\frmPages\\frmRelatorios.cs",
-              "ToolTip": "D:\\Controle de Biblioteca\\Controle de Biblioteca\\Controle de Biblioteca\\frmPages\\frmRelatorios.cs [Design]",
-              "RelativeToolTip": "Controle de Biblioteca\\frmPages\\frmRelatorios.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T12:04:52.767Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

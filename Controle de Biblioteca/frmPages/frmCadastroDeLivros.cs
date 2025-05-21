@@ -42,7 +42,6 @@ namespace Controle_de_Biblioteca.frmPages
 
             Livro livro = new Livro
             {
-                _id = Guid.NewGuid().ToString(),
                 titulo = titulo,
                 autor = autor,
                 ano = int.Parse(ano),

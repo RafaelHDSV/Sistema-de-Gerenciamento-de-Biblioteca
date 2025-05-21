@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Controle_de_Biblioteca
 {
@@ -11,12 +12,18 @@ namespace Controle_de_Biblioteca
 
     public class Livro
     {
-        public string _id { get; set; }
+        public Guid _id { get; set; }
         public string titulo { get; set; }
         public string autor { get; set; }
         public int ano { get; set; }
         public string isbn { get; set; }
         public StatusLivro status { get; set; }
+
+        public Livro()
+        {
+            _id = Guid.NewGuid();
+            status = StatusLivro.Disponivel;
+        }
 
         public void MarcarComoEmprestado() => status = StatusLivro.Emprestado;
         public void MarcarComoDisponivel() => status = StatusLivro.Disponivel;

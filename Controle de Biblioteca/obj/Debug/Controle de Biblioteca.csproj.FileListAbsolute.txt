@@ -12,3 +12,17 @@ D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debu
 D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmCadastroDeLivros.resources
 D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmControleDeEmpréstimo.resources
 D:\Controle de Biblioteca\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmRelatorios.resources
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\bin\Debug\Controle de Biblioteca.exe.config
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\bin\Debug\Controle de Biblioteca.exe
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\bin\Debug\Controle de Biblioteca.pdb
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.csproj.AssemblyReference.cache
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmCadastroDeLivros.resources
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmCadastroDeUsuarios.resources
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmControleDeEmpréstimo.resources
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.frmPages.frmRelatorios.resources
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.MainForm.resources
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle_de_Biblioteca.Properties.Resources.resources
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.csproj.GenerateResource.cache
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.exe
+C:\Users\rafae\OneDrive\Documentos\DEV\Controle de Biblioteca\Controle de Biblioteca\obj\Debug\Controle de Biblioteca.pdb
