@@ -77,7 +77,7 @@ Sistema de controle de biblioteca desenvolvido em Windows Forms com C#. Permite 
 
 1. Clone o repositório:
 ```bash
-git clone [https://github.com/RafaelHDSV/Controle-de-Estoque-CSharp-IPOO.git](https://github.com/RafaelHDSV/Sistema-de-Gerenciamento-de-Biblioteca.git)
+git clone https://github.com/RafaelHDSV/Sistema-de-Gerenciamento-de-Biblioteca.git
 ```
 
 2.  Acesse a pasta do projeto:
